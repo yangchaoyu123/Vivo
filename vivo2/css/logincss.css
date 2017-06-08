@@ -1,0 +1,132 @@
+#header{
+	width: 16.0rem;
+	height: 1.896rem;
+	margin-top: 0.489rem;
+}
+#return{
+	display: block;
+	width: 0.5rem;
+	height: 0.874rem;
+	margin-top: 0.533rem;
+	margin-left: 0.726rem;
+	background:url(../image/jiao.png) no-repeat;
+	background-size: 100%;
+}
+#over{
+	display: block;
+	font-family: "华文仿宋";
+	margin-right: 0.741rem;
+	line-height: 1.896rem;
+	font-size: 0.681rem;
+}
+#lo{
+	width: 3.437rem;
+	height: 3.333rem;
+	background: url(../image/lo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 6.296rem;
+	margin-top: 0.489rem;
+}
+#nickname{
+	display: block;
+	font-size: 0.696rem;
+	font-family: "华文仿宋";
+	margin-top: 0.681rem;
+	margin-left: 6.593rem;
+	color: #00acff;
+}
+#int{
+	width: 16.0rem;
+	margin-top: 1.422rem;
+	margin-bottom: 0.948rem;
+}
+#int li{
+	/*background: red;*/
+	width: 5.333rem;
+	height: 1.689rem;
+	float: left;
+	text-align: center;
+}
+#int li span{
+	display: block;
+}
+#int li .span1{
+	font-size: 0.43rem;
+	color: #888;
+	font-family: "华文仿宋";
+	margin-top: 0.148rem;
+	
+}
+#int li .span2{
+	font-family: "华文仿宋";
+	font-size: 0.741rem;
+}
+#zo{
+	width: 1.022rem;
+	height: 1.052rem;
+	margin-left: 0.844rem;
+	/*display: inline-block;*/
+	background: url(../image/h.png) no-repeat;
+	background-size: 100%;
+}
+#mood{
+	font-family: "华文仿宋";
+	color: #aaa;
+	/*display: inline-block;*/
+	/*height: 1.037rem;*/
+	/*padding-bottom: 0.148rem;*/
+	line-height: 1.037rem;
+	margin-left: 0.444rem;
+	font-size: 0.563rem;
+}
+.youjiao{
+	width: 0.281rem;
+	height:0.519rem;
+	margin-right: 0.711rem;
+	margin-top: 0.222rem;
+	background: url(../image/yujiao.png) no-repeat;
+	background-size: 100%;
+}
+#spkMood{
+	margin-bottom: 0.8rem;
+}
+footer{
+	width: 16.0rem;
+}
+#foot li{
+	width: 100%;
+	height: 2.919rem;
+	/*background:red;*/
+	display: flex;
+	border-bottom: 0.015rem solid #dfdfdf;
+}
+#foot li .div1,.div2{
+	flex:1;
+	height: 1.541rem;
+	margin-top: 0.711rem;
+
+	/*text-align: center;*/
+	/*background: green; */
+}
+#foot .div1{
+	border-right: 0.015rem solid #dfdfdf;
+}
+#foot .div-1{
+	width: 1.333rem;
+	height: 1.333rem;
+	margin-left: 0.8rem;
+	display: inline-block;
+	/*overflow: hidden;*/
+}
+#foot .div-1 img{
+	width: 100%;
+	height: 100%;
+}
+#foot span{
+	display: inline-block;
+	margin-left: 0.148rem;
+	/*margin-top: 0.148rem;*/
+	line-height: 1.319rem;
+	font-size: 0.607rem;
+	font-family: "华文仿宋";
+}

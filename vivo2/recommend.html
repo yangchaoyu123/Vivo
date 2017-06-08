@@ -1,0 +1,42 @@
+<div id="box">
+	<ul class="nav-nav clear-fix" id="nav-nav" ng-click="page()">
+		<li><a href="javascript:;" class="a1"></a><span class="span1">X系列</span></li>
+		<li><a href="javascript:;" class="a2"></a><span>V粉家园</span></li>
+		<li><a href="javascript:;" class="a3"></a><span>玩机技巧</span></li>
+		<li><a href="javascript:;" class="a4"></a><span>手机主题</span></li>
+	</ul>
+	<div class="review" ng-repeat="v in data |limitTo:'5'" id="review" ng-click="page()">
+		<div class="box1">
+			<image ng-src="{{v.image1}}" class="image-1"/><span class="span-1">as122</span>
+		</div>
+		<span class="span1">{{v.span1}}</span>
+		<span class="span2">{{v.span2}}</span>
+		<ul class="ul1 clear-fix">
+			<li class="li1"><image ng-src="{{v.image2}}" class="image-2 image-1"/></li>
+			<li class="li2"><image ng-src="{{v.image3}}" class="image-3 image-1"/></li>
+			<li><image ng-src="{{v.image4}}" class="image-4 image-1"/></li>
+		</ul>
+		<div class="clear-fix bottom">
+			<div class="fl zz">
+				<div class=" eye">
+					<image ng-src="{{v.image5}}" class="image-5 image-1"/>
+				</div>
+				<span class="span3">{{v.span3}}</span>
+			</div>
+			<div class="zz1 fl">
+				<div class=" r-5">
+				<image ng-src="{{v.image6}}" class="image-6 image-1"/>
+				</div>
+				<span class="span4">{{v.span4}}</span>
+			</div>
+			<div class="fr r-6">
+				<image ng-src="{{v.image7}}" class="image-7 image-1"/>
+			</div>
+		</div>
+		
+	</div>
+		<div class="r-7" >
+			<img src="image/w-1.png" class="image-8 image-1">
+		</div>
+		<div class="kong"></div>
+</div>

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+html {
+  font-size: 20px; }
+
+#head {
+  width: 16.0rem; }
+  #head .a1 {
+    width: 0.489rem;
+    height: 0.874rem;
+    display: block;
+    background: url(../image/jiao.png) no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0.711rem;
+    margin-top: 0.652rem; }
+  #head .a2 {
+    width: 1.111rem;
+    height: 1.289rem;
+    background: url(../image/seek.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0.23rem;
+    margin-left: 10.881rem; }
+  #head .a3 {
+    width: 1.215rem;
+    height: 1.244rem;
+    background: url(../image/xiala.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0.23rem;
+    margin-right: 0.37rem; }
+  #head .title {
+    width: 100%;
+    text-align: center; }
+    #head .title span {
+      font-family: '鍗庢枃浠垮畫';
+      margin-bottom: 0.741rem;
+      display: block; }
+    #head .title .span1 {
+      font-size: 0.741rem;
+      font-weight: bold; }
+  #head ul {
+    width: 100%; }
+    #head ul .li1 {
+      width: 12.089rem;
+      height: 1.037rem;
+      color: #ccc;
+      font-size: 0.519rem;
+      line-height: 1.037rem;
+      padding-left: 0.741rem;
+      border-right: 0.015rem solid #ccc; }
+    #head ul .col {
+      width: 0.889rem;
+      height: 0.859rem;
+      background: url(../image/xin.png) no-repeat;
+      background-size: 100% 100%;
+      margin-right: 1.111rem;
+      font-size: 0.4rem; }
+
+.sec {
+  width: 16.0rem;
+  margin-top: 0.237rem; }
+  .sec li {
+    border-top: 0.015rem solid #ccc;
+    height: 1.867rem;
+    font-family: '鍗庢枃浠垮畫';
+    line-height: 1.867rem;
+    padding-left: 0.77rem; }
+
+/*# sourceMappingURL=page1.css.map */

@@ -1,0 +1,180 @@
+#serverBox {
+  background: #f7f7f7;
+  width: 16.0rem; }
+  #serverBox .server-top {
+    padding: 0.741rem 0.681rem;
+    background: #00aeff; }
+    #serverBox .server-top .server-ul {
+      width: 14.593rem;
+      height: 4.548rem; }
+      #serverBox .server-top .server-ul .sz, #serverBox .server-top .server-ul .ljdl, #serverBox .server-top .server-ul .ly {
+        display: block;
+        height: 4.548rem;
+        font-size: 0.637rem;
+        color: #fff; }
+      #serverBox .server-top .server-ul .sz, #serverBox .server-top .server-ul .ly {
+        margin-top: 0.237rem; }
+      #serverBox .server-top .server-ul .ljdl {
+        margin-left: 5.037rem;
+        display: block;
+        height: 1.585rem;
+        background: url(../images/ljdl.png) no-repeat top center;
+        text-align: center;
+        padding-top: 2.963rem;
+        background-size: 100%; }
+      #serverBox .server-top .server-ul .ly {
+        background: url(../images/ly.png) no-repeat;
+        width: 0.963rem;
+        height: 0.993rem;
+        background-size: 100%; }
+    #serverBox .server-top .server-b {
+      padding-left: 0.963rem; }
+      #serverBox .server-top .server-b .dd, #serverBox .server-top .server-b .yhj, #serverBox .server-top .server-b .gwc, #serverBox .server-top .server-b .wdsc {
+        display: block;
+        width: 1.481rem;
+        height: 1.896rem;
+        text-align: center;
+        font-size: 0.474rem;
+        color: #fff;
+        margin-right: 2.222rem;
+        margin-bottom: 0.8rem; }
+        #serverBox .server-top .server-b .dd .bjt, #serverBox .server-top .server-b .yhj .bjt, #serverBox .server-top .server-b .gwc .bjt, #serverBox .server-top .server-b .wdsc .bjt {
+          margin: auto;
+          margin-bottom: 0.385rem;
+          display: block;
+          width: 1.481rem;
+          height: 1.422rem; }
+      #serverBox .server-top .server-b .dd .bjt {
+        background: url(../images/dd.png) no-repeat center;
+        background-size: 100%; }
+      #serverBox .server-top .server-b .yhj .bjt {
+        background: url(../images/yhj.png) no-repeat center;
+        background-size: 100%; }
+      #serverBox .server-top .server-b .gwc .bjt {
+        background: url(../images/gwc.png) no-repeat center;
+        background-size: 100%; }
+      #serverBox .server-top .server-b .wdsc {
+        margin-right: 0;
+        width: 1.926rem; }
+        #serverBox .server-top .server-b .wdsc .bjt {
+          background: url(../images/wdsc.png) no-repeat center;
+          background-size: 100%; }
+  #serverBox .server-body {
+    width: 16.0rem; }
+    #serverBox .server-body .server-dh {
+      background: #fff;
+      padding-bottom: 1.185rem; }
+      #serverBox .server-body .server-dh .server-dh-li {
+        margin: 1.481rem 0.711rem 0.296rem 1.926rem; }
+        #serverBox .server-body .server-dh .server-dh-li .cjwt {
+          font-size: 0.563rem;
+          color: #4a494a;
+          display: block; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt {
+            width: 1.422rem;
+            height: 1.481rem;
+            display: block;
+            background-size: 100%;
+            margin: 0 auto;
+            margin-bottom: 0.696rem; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt1 {
+            background: url(../images/bjt1.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt2 {
+            background: url(../images/bjt2.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt3 {
+            background: url(../images/bjt3.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt4 {
+            background: url(../images/bjt4.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt5 {
+            background: url(../images/bjt5.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt6 {
+            background: url(../images/bjt6.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt7 {
+            background: url(../images/bjt7.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .server-dh .server-dh-li .cjwt .bjt8 {
+            background: url(../images/bjt8.png) no-repeat top center;
+            background-size: 100%; }
+    #serverBox .server-body .wrsq {
+      width: 16.0rem;
+      background: #fff;
+      margin-top: 0.296rem; }
+      #serverBox .server-body .wrsq .wrsq-h3s {
+        padding-top: 0.593rem; }
+        #serverBox .server-body .wrsq .wrsq-h3s .wrsq-h3 {
+          width: 14.593rem;
+          display: block;
+          margin-left: 0.637rem;
+          font-size: 0.681rem;
+          color: #393c39; }
+          #serverBox .server-body .wrsq .wrsq-h3s .wrsq-h3 .bjt {
+            width: 0.281rem;
+            height: 0.489rem;
+            float: right;
+            background: url(../images/wdsq.png) no-repeat right center;
+            background-size: 100%; }
+      #serverBox .server-body .wrsq .wrsq-li {
+        margin: 1.481rem 0.711rem 0.296rem 2.415rem; }
+        #serverBox .server-body .wrsq .wrsq-li .tz {
+          font-size: 0.563rem;
+          color: #4a494a;
+          display: block; }
+          #serverBox .server-body .wrsq .wrsq-li .tz .bjt {
+            width: 1.422rem;
+            height: 1.481rem;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.711rem; }
+          #serverBox .server-body .wrsq .wrsq-li .tz .bjt9 {
+            background: url(../images/bjt9.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .wrsq .wrsq-li .tz .bjt10 {
+            background: url(../images/bjt10.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .wrsq .wrsq-li .tz .bjt11 {
+            background: url(../images/bjt11.png) no-repeat top center;
+            background-size: 100%; }
+          #serverBox .server-body .wrsq .wrsq-li .tz .bjt12 {
+            background: url(../images/bjt12.png) no-repeat top center;
+            background-size: 100%; }
+  #serverBox #server-buttom {
+    width: 16.0rem;
+    height: 2.222rem;
+    background: #fff;
+    padding-top: 0.444rem; }
+  #serverBox #dibu {
+    width: 16.0rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #fff; }
+    #serverBox #dibu .nave {
+      width: 16.0rem;
+      border-top: 0.015rem solid #dedfde;
+      background: #fff; }
+      #serverBox #dibu .nave .naves {
+        width: 4.0rem;
+        height: 2.207rem; }
+        #serverBox #dibu .nave .naves .select {
+          padding: 1.103rem 2rem;
+          display: block; }
+        #serverBox #dibu .nave .naves .jx {
+          background: url(../images/jx.png) no-repeat;
+          background-size: 100%; }
+        #serverBox #dibu .nave .naves .sq {
+          background: url(../images/sq.png) no-repeat;
+          background-size: 100%; }
+        #serverBox #dibu .nave .naves .sc {
+          background: url(../images/sc.png) no-repeat;
+          background-size: 100%; }
+        #serverBox #dibu .nave .naves .fw {
+          background: url(../images/fw.png) no-repeat;
+          background-size: 100%; }
+
+/*# sourceMappingURL=server.css.map */

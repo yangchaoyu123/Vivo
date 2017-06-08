@@ -1,0 +1,234 @@
+
+#storeBox{ width:16.0rem;
+	background:#f7f7f7;
+		#storeTop{ 
+			width:16.0rem;
+			height:2.252rem;
+			text-align:center;
+			line-height:2.252rem;
+			position:fixed;
+			left:0;
+			top:0;
+			background:#fff;
+			.top-a-l{
+				background:url(../images/store.png) no-repeat;
+				padding:0.519rem;
+				margin:0.607rem 0 0.607rem 0.711rem;
+				background-size:100%;
+			}
+			.top-h3{
+				width:10.311rem;
+				text-align:center;
+				font-size:0.77rem;
+				color:#313031;}
+			.top-a-ll{
+				background:url(../images/store1.png) no-repeat;
+				padding:0.519rem;
+				margin:0.607rem 0.533rem 0 0;
+				background-size:100%;
+			}
+			.top-a-r{
+				background:url(../images/seek.png) no-repeat;
+				padding:0.519rem;
+				margin:0.607rem 0.533rem;
+				background-size:100%;
+			}
+		}
+		#siftops{
+			width:16.0rem;
+			height:2.252rem;
+		}
+		#slides{
+			background:#fff;
+			width:16.0rem;
+			overflow:hidden;
+			.lb{
+				width:64.0rem;
+				img{
+					width:16.0rem;
+					height:10.963rem;
+					background-size:100%;
+				}
+			}	
+		}
+		#storeBody{
+			.storeBody-top{
+				background:#fff;
+				padding:0.326rem 1.674rem 0.474rem;
+
+				.sB-tp-li{
+					margin-right:3.111rem;
+					.top-sj,.top-pj{
+						padding:0 0.519rem;
+						padding-top:2.785rem;
+						text-align:center;
+						display:block;
+						font-size:0.519rem;
+						color:#313031;
+					}
+					.top-sj{
+						background:url(../images/sj.png) no-repeat;
+						background-size:100%;
+					}
+					.top-pj{
+						background:url(../images/pj.png) no-repeat;
+						background-size:100%;
+					}
+					
+				}
+				.sB-tp-lis{ 
+					margin-right:0;
+					.top-vb{
+						padding:0 0.104rem;
+						padding-top:2.785rem;
+						text-align:center;
+						display:block;
+						background:url(../images/vb.png) no-repeat;
+						background-size:100%;
+						font-size:0.519rem;
+						color:#313031;
+					}
+				}
+			}
+			
+			.ty{
+				line-height:1.585rem;
+				text-align:center;
+				color:#313431;
+				font-size:0.637rem;
+			}
+			.tylb{
+				margin-bottom:0.37rem;
+				.tylb-li{
+					width:100%;
+					margin-bottom:0.237rem;
+					padding:0.756rem 0 0.681rem 0;
+					background:#fff;
+					.tylb-h3{
+						font-size:0.637rem;
+						text-align:center;
+						color:#292829;
+					}
+					.tylb-p{
+						font-size:0.504rem;
+						text-align:center;
+						line-height:0.859rem;
+						color:#636563;
+					}
+					.tylb-h3s{
+						font-size:0.563rem;
+						text-align:center;
+						line-height:1.081rem;
+						color:#ef655a;
+					}
+					.tylb-img{
+						width:11.037rem;
+						margin:auto auto;
+						display:block;
+					}
+				}
+			}
+
+			.rsjx{
+				.rsjx-li{
+					width:7.852rem;
+					height:9.363rem;
+					background:#fff;
+					margin-bottom:0.326rem;
+					.rsjx-img{
+						width:2.43rem;
+						display:block;
+						margin:0 auto;
+						margin-top:0.77rem;
+					}
+					.rsjx-sc{
+						width:3.6rem;
+					}
+					.rsjx-h3{
+						font-size:0.519rem;
+						color:#313031;
+						margin-top:0.563rem;
+						text-align:center;
+					}
+					.rsjx-p{
+						font-size:0.459rem;
+						color:#8c8a8c;
+						line-height:1.037rem;
+						text-align:center;
+					}
+					.rsjx-i{
+						display:block;
+						font-size:0.519rem;
+						color:#ff6963;
+						line-height:0.919rem;
+						text-align:center;
+					}
+				}
+			}
+			.gdpj{
+				background:#fff;
+				margin-bottom:0.37rem;
+			}
+
+			.rdcc{
+				height:6.104rem;
+				padding:0.919rem 0 0 1.081rem;
+				background:#fff;
+				.rdcc-li{
+					width:4.252rem;
+					line-height:1.215rem;
+					border:0.015rem solid #e7e7e7;
+					color:#5a5d5a;
+					font-size:0.444rem;
+					text-align:center;
+					margin-right:0.696rem;
+					margin-bottom:0.593rem;
+					// border-radius: 10%;
+					border-radius: 2.252rem/2.133rem;
+
+				}
+				.rdcc-li-r{
+					margin-right:0;
+				}
+			}
+
+		}
+		#dibu{
+ 			width:16.0rem;
+ 			position:fixed;
+ 			left:0; bottom:0;
+ 			background:#fff;
+	 		.nave{
+	 			width:16.0rem;
+	 			border-top:0.015rem solid #dedfde;
+	 			background:#fff;
+	 			.naves{
+	 				width:4.0rem;
+	 				height:2.207rem;
+	 				.select{
+	 					padding:1.103rem 2.0rem ;
+	 					
+	 					display:block;
+	 				}
+	 				.jx{
+	 					background:url(../images/jx.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 				.sq{
+	 					background:url(../images/sq.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 				.sc{
+	 					background:url(../images/scs.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 				.fw{
+	 					background:url(../images/fws.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 			}
+	 			
+	 		}
+
+ 		}
+}

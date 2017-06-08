@@ -1,0 +1,296 @@
+html {
+	font-size: 20px;
+}
+header{
+	width: 16.0rem;
+}
+body{
+	background: #fffbff;
+}
+a{
+	-webkit-tap-heighlight-color:rgba(0,0,0,0);
+}
+.header-title {
+	width: 100%;
+	/* 89 / 40*/
+	height: 2.311rem; 
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*border-bottom: 0.1rem solid #4bccae;*/
+	box-shadow:0 0 0.016rem black;
+}
+.header-title a {
+	width: 1.319rem;
+	height: 1.5rem;
+	background-size: 100%;
+	text-indent: -999em;
+}
+.log-in{
+	background: url(../image/logo.png) no-repeat;
+	margin-left: 0.809rem;
+}
+.header-title h1 {
+	/*color: #fff;*/
+	font-size: 0.825rem;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.seek{
+	background: url(../image/seek.png) no-repeat;
+	margin-right: 0.654rem;
+}
+.nav{
+	width: 100%;
+	border-bottom: 0.015rem solid #dedfde;
+}
+.nav a{
+	display: block;
+	width: 3.852rem;
+	height: 1.896rem;
+	text-align: center;
+	line-height: 1.896rem;
+	font-size: 0.637rem;
+	font-family: "华文仿宋"
+}
+.nav-left{
+	margin-left: 2.089rem;
+}
+.nav-right{
+	margin-right: 2.089rem;
+}
+.nav a.active{
+	color: #00aeff;
+	border-bottom: 0.104rem solid #00aeff;
+}
+.nav-nav{
+	width: 100%;
+
+}
+.nav-nav li{
+	float: left;
+	margin-top: 0.904rem;
+}
+.nav-nav li a{
+	display: block;
+	width: 3.319rem;
+	height: 3.319rem;
+	font-size: 0.519rem;
+	text-align: center ;
+	/*padding-top: 3.852rem;*/
+	font-family: "华文仿宋";
+}
+.nav-nav li span{
+	margin-top: 0.533rem;
+	font-family: "华文仿宋";
+	display: block;
+	width: 3.319rem;
+	margin-left: 0.326rem;
+	text-align: center;
+	margin-bottom: 0.948rem;
+
+}
+.nav-nav li .span1{
+	margin-left: 0.711rem;
+}
+.nav-nav li .a1{
+	background: url(../image/1.png) no-repeat;
+	background-size: 100%;
+	border-radius: 0.148rem;
+	margin-left: 0.889rem;
+
+}
+.nav-nav li .a2{
+	background: url(../image/2.png) no-repeat;
+	background-size: 100%;
+	border-radius: 0.148rem;
+	margin-left: 0.326rem;
+}
+.nav-nav li .a3{
+	background: url(../image/3.png) no-repeat;
+	background-size: 100%;
+	border-radius: 0.148rem;
+	margin-left: 0.326rem;
+}
+.nav-nav li .a4{
+	background: url(../image/4.png) no-repeat;
+	background-size: 100%;
+	border-radius: 0.148rem;
+	margin-left: 0.326rem;
+}
+.review{
+	width: 14.593rem;
+	height: 10.422rem;
+	/*background: red;*/
+	margin-top: 0.252rem;
+	margin-left: 0.711rem;
+}
+.review .box1{
+	width: 0.859rem;
+	height: 0.859rem;
+	/*background: red;*/
+	margin-top: 1.141rem;
+	position: relative;
+}
+.review .span-1{
+	position: absolute;
+	left: 1.096rem;
+	top: 0.148rem;
+}
+.image-1{
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+.review .span1{
+	margin-top: 0.519rem;
+	display: block;
+	font-size: 0.667rem;
+	font-weight: bold;
+}
+.review .span2{
+	font-size: 0.548rem;
+	color: #9c9a9c;
+	margin-top: 0.5rem;
+	display: block;
+}
+.review .ul1{
+	width: 100%;
+}
+.review .ul1 li{
+	width: 4.741rem;
+	height: 4.741rem;
+	float: left;
+	/*background:red;*/
+}
+.review .ul1 .li1{
+	margin-right: 0.178rem;
+}
+.review .ul1 .li2{
+	margin-right: 0.178rem;
+}
+.review .eye{
+	width: 0.711rem;
+	height: 0.489rem;
+}
+.review .bottom{
+	margin-top: 0.978rem;
+}
+.review .zz{
+	position: relative;
+}
+.review .span3{
+	color: #bdbebd;
+	position:absolute;
+	left: 0.9rem;
+	top: 0.1rem;
+	font-size: 0.178rem;
+}
+.review .zz1{
+	margin-left: 2.578rem;
+	position: relative;
+}
+.review .r-5{
+	width: 0.504rem;
+	height: 0.489rem;
+	margin-left: -0.578rem;
+	/*position: absolute;*/
+	/*left: 2.074rem;*/
+}
+
+.review .span4{
+	color: #bdbebd;
+	position:absolute;
+	left: 0.29rem;
+	top: 0.1rem;
+	font-size: 0.178rem;
+}
+.review .r-6{
+	width: 2.607rem;
+	height: 0.978rem;
+	margin-top: -0.248rem;
+}
+.r-7{
+	width: 16.0rem;
+	height: 5.615rem;
+	margin-top: 1rem;
+}
+.new-ul li{
+	width: 16.0rem;
+	height: 8.37rem;
+	/*background: red;*/
+	display: flex;
+}
+.new-ul li .sos{
+	flex:1;
+	margin-left: 1.778rem;
+	margin-top: 0.859rem;
+}
+.new-ul li .sos .img-1{
+	width: 4.444rem;
+	height: 4.444rem;
+	border-radius: 0.296rem;
+}
+.new-ul li .sos .img-1 img{
+	width: 100%;
+	height: 100%;
+
+}
+.new-ul li .sos .span-1{
+	display: block;
+	font-family: "华文仿宋";
+	font-size: 0.459rem;
+	margin-top: 0.637rem;
+	margin-left: 1.541rem;
+}
+.new-ul li .sos .span-2{
+	font-family: "华文仿宋";
+	font-size: 0.459rem;
+	color: #adaaad;
+	display: inline-block;
+	margin-left: 0.444rem;
+	margin-top: 0.37rem;
+}
+.new-ul li .sos .span-3{
+	display: inline-block;
+	margin-top: 0.37rem;
+	font-size: 0.459rem;
+	color: #00aeff;
+}
+.foot-ul{
+	width: 16.0rem;
+	/*height: 2.37rem;*/
+	position: fixed;
+	bottom: 0;
+	background: white;
+}
+.kong{
+	width: 16.0rem;
+	height: 2.37rem;
+}
+.foot-ul li a{
+	display: block;
+	width: 4.0rem;
+	height: 2.222rem;
+
+}
+.foot-ul li{
+	float: left;
+}
+.foot-ul .li1 .a1{
+	background: url(../image/foot1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.foot-ul .li2 .a2{
+	background: url(../image/foot2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.foot-ul .li3 .a3{
+	background: url(../image/foot3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.foot-ul .li4 .a4{
+	background: url(../image/foot4.png) no-repeat;
+	background-size: 100% 100%;
+}

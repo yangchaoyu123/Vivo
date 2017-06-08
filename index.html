@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="template/css/base.css">
+    <link rel="stylesheet" href="template/css/index.css">
+    <link rel="stylesheet" href="swiper-3.4.2.min.css">
+    <script src="template/js/1.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <script src="swiper-3.4.2.min.js"></script>
+    <script src="angular-1.5.6.js"></script>
+    <script src="angular-route.js"></script>
+    
+    <script>
+
+        window.onload=window.onresize=function (){
+            document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';
+
+            var mySwiper = new Swiper ('.swiper-container', {
+                direction: 'horizontal',
+                loop: true,
+
+                // 如果需要分页器
+                pagination: '.swiper-pagination',
+
+                // 如果需要前进后退按钮
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+
+                autoplay: 1000,//可选选项，自动滑动
+                autoplayDisableOnInteraction : true,
+                grabCursor : true,
+                effect : 'coverflow'
+            });
+
+        };
+
+        var app=angular.module('app',['ngRoute']);
+
+        app.config(function($routeProvider){
+            $routeProvider.when('/index',{
+                templateUrl:'template/index2.html',
+                controller:'indexCon'
+            }).otherwise({
+                redirectTo:'/index'
+
+            });
+        });
+
+        app.controller('indexCon',['$scope',function($scope){
+            $scope.a='品牌精选';
+            $scope.b='template/images/a2.png';
+            $scope.b1='template/images/d1.png';
+            $scope.b2='template/images/d2.png';
+            $scope.b3='template/images/d3.png';
+
+            
+
+            $scope.c='我是六动';
+            $scope.d='Xplay6评测';
+            $scope.e='让妹子爱不释手的旗舰手机';
+            $scope.f='作为国产一流的旗舰品牌vivo,它塑造出很多经典的机型，其中Xplay6就是一款高端手机';
+            $scope.g='1829';
+            $scope.h='38';
+            $scope.i='Xplay系列';
+
+            $scope.c1='风之彩儿';
+            $scope.d1='摄影欣赏';
+            $scope.e1='带着Xplay6游澳洲';
+            $scope.f1='澳大利亚联邦，简称澳大利亚，四面环海，是世界上美之国';
+            $scope.g1='658';
+            $scope.h1='65';
+            $scope.i1='Xplay系列';
+
+            $scope.c2='13594473305';
+            $scope.d2='评测';
+            $scope.e2='国产最美曲面屏手机，它当之无愧';
+            $scope.f2='曲面屏手机作为目前智能手机的趋势之一，如今已经变得越来越普遍';
+            $scope.g2='379';
+            $scope.h2='8';
+            $scope.i2='Xplay系列';
+
+            $scope.data=[{
+                image:'template/images/a3.png',
+                phone:'手机',
+            },{
+                image:'template/images/a4.png',
+                phone:'配件',
+            },{
+                image:'template/images/a5.png',
+                phone:'促销',
+            },{
+                image:'template/images/a6.png',
+                phone:'活动',
+            }];
+            $scope.data2=[{
+                image:'template/images/a7.png',
+                phone:'摄影',
+            },{
+                image:'template/images/a8.png',
+                phone:'V粉',
+            },{
+                image:'template/images/a9.png',
+                phone:'促销',
+            },{
+                image:'template/images/a10.png',
+                phone:'活动',
+            }];
+            $scope.data3=[{
+                image:'template/images/a11.png',
+                type:'Xplay6磨砂黑',
+                style:'曲面双摄',
+                p:'4498'
+            },{
+                image:'template/images/a11.png',
+                type:'Xplay6磨砂黑',
+                style:'64G存储',
+                p:'2798'
+            }];
+            $scope.data4=[{
+                image:'template/images/a18.png'
+            },{
+                image:'template/images/a19.png'
+            },{
+                image:'template/images/a20.png'
+            }];
+            $scope.data5=[{
+                image:'template/images/b1.png'
+            },{
+                image:'template/images/b2.png'
+            },{
+                image:'template/images/b3.png'
+            }];
+            $scope.data6=[{
+                image:'template/images/b4.png'
+            },{
+                image:'template/images/b5.png'
+            },{
+                image:'template/images/b6.png'
+            }];
+            $scope.data7=[{
+                image:'template/images/a23.png',
+                p:'玩机技巧'
+            },{
+                image:'template/images/b7.png',
+                p:'手机主题'
+            },{
+                image:'template/images/b8.png',
+                p:'Funtouch OS'
+            },{
+                image:'template/images/b9.png',
+                p:'Xplay系列'
+            }];
+            $scope.data8=[{
+                a:'30天无忧退换货'
+            },{
+                a:'花呗分期0利息'
+            },{
+                a:'满68元免邮费'
+            }];
+            $scope.data9=[{
+                image:'template/images/c1.png',
+                font:'X9Plus磨砂黑',
+                p:'前置2000万',
+                p1:'6GB+64GB',
+                d:'3298'
+            },{
+                image:'template/images/c2.png',
+                font:'Y67磨砂黑',
+                p:'前置1600万',
+                p1:'4GB+32GB',
+                d:'1798'
+            }];
+            $scope.data10=[{
+                image:'template/images/c3.png',
+                font:'闪充充电器',
+                p:'原装充电头，支持闪充',
+                d:'85'
+            },
+            {
+                image:'template/images/c4.png',
+                font:'原装移动电源P50',
+                p:'小巧精致',
+                d:'99'
+            }];
+            $scope.f1='template/images/f1.png',
+            $scope.f2='template/images/f2.png',
+            $scope.f3='template/images/f3.png',
+                
+            
+            $scope.m1='template/images/e1.png',
+            $scope.m2='template/images/e2.png',
+            $scope.m3='template/images/e3.png'
+        }]);
+
+
+    </script>
+</head>
+<body>
+<div ng-view></div>
+<div class="box13 wraper">
+    <ul>
+        <li>
+            <a href="javascript:;"><img src="template/images/a25.png" alt=""></a>
+            <p class="active"><a href="#/index">精选</a></p>
+        </li>
+        <li>
+            <a href="vivo2/comm.html"><img src="template/images/a26.png" alt=""></a>
+            <p><a href="vivo2/comm.html">社区</a></p>
+        </li>
+        <li>
+            <a href="vivoss/store.html"><img src="template/images/a27.png" alt=""></a>
+            <p><a href="vivoss/store.html">商城</a></p>
+        </li>
+        <li>
+            <a href="vivoss/server.html"><img src="template/images/a28.png" alt=""></a>
+            <p><a href="vivoss/server.html">服务</a></p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

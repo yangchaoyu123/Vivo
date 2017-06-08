@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/angular-1.5.6.js"></script>
+    <script src="js/angular-route.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/viv.js"></script>
+
+	<script>
+		window.onload = window.onresize = function (){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth * 20 / 320 + 'px';
+		}
+	</script>
+	<script>
+		var app=angular.module('app',['ngRoute']);
+        // $location.replace();
+		app.config(function($routeProvider){
+
+            $routeProvider.when('/new',{
+                templateUrl:'new.html',
+                controller:'newCon'
+            }).when('/recommend',{
+                templateUrl:'recommend.html',
+                controller:'recommendCon'
+            }).otherwise({
+                redirectTo:'/recommend'
+            });
+        });
+        app.controller('recommendCon',function($scope){
+            $scope.data=[{
+            	image1:'image/r-4.png',
+            	image2:'image/r-1.png',
+            	image3:'image/r-2.png',
+            	image4:'image/r-3.png',
+            	image5:'image/eye.png',
+            	image6:'image/r-5.png',
+            	image7:'image/r-6.png',
+            	
+            	span1:'Xplay6评测|磨砂黑体验，均衡的曲面旗舰',
+            	span2:'Xplay6集成了一贯的优秀外观设计，精致的做工让人爱不释手',
+            	span3:'467',
+            	span4:'2345'
+            },{
+            	image1:'image/q-4.png',
+            	image2:'image/q-1.png',
+            	image3:'image/q-2.png',
+            	image4:'image/q-3.png',
+            	image5:'image/eye.png',
+            	image6:'image/r-5.png',
+            	image7:'image/r-6.png',
+            	
+            	span1:'摄影欣赏|人像双摄，街拍喵喵',
+            	span2:'Xplay6人像双摄，一组来自美女的街拍',
+            	span3:'3217',
+            	span4:'2345'
+            },
+            {
+            	image1:'image/z-4.png',
+            	image2:'image/z-1.png',
+            	image3:'image/z-2.png',
+            	image4:'image/z-3.png',
+            	image5:'image/eye.png',
+            	image6:'image/r-5.png',
+            	image7:'image/r-6.png',
+            	span1:'摄影技巧|轻松拍出火花飞溅的光绘效果',
+            	span2:'今天来安利一篇手机光绘教程，用手机和5块钱的简单道具，就能拍出火花飞溅',
+            	span3:'3217',
+            	span4:'2345'
+            },
+            ]
+            $scope.page=function(){
+                window.location.href='./deputyPage1.html'
+            }
+        }),
+        app.controller('newCon',function($scope){
+            $scope.data=[{
+                image1:'image/c-1.png',
+                image2:'image/c-2.png',
+                span1:'X系列',
+                span2:'Xplay系列',
+                span3:'5371',
+                span4:'1734'
+            },
+            {
+                image1:'image/c-3.png',
+                image2:'image/c-4.png',
+                span1:'Y系列及其他',
+                span2:'Funtouch',
+                span3:'1908',
+                span4:'2717'
+            },
+            {
+                image1:'image/c-5.png',
+                image2:'image/c-6.png',
+                span1:'玩机技巧',
+                span2:'手机主题',
+                span3:'10789',
+                span4:'6781'
+            },
+            {
+                image1:'image/c-7.png',
+                image2:'image/c-8.png',
+                span1:'手机摄影',
+                span2:'资源分享',
+                span3:'3813',
+                span4:'5052'
+            },
+            {
+                image1:'image/c-9.png',
+                image2:'image/c-10.png',
+                span1:'HiFi耳机',
+                span2:'V粉随拍',
+                span3:'59',
+                span4:'3049'
+            },
+            {
+                image1:'image/c-11.png',
+                image2:'image/c-12.png',
+                span1:'V粉家园',
+                span2:'V粉会',
+                span3:'30397',
+                span4:'262'
+            },
+            {
+                image1:'image/c-13.png',
+                image2:'image/c-14.png',
+                span1:'线上活动',
+                span2:'vivo商城',
+                span3:'2606',
+                span4:'94'
+            },
+            {
+                image1:'image/c-15.png',
+                image2:'image/c-10.png',
+                span1:'社区站务',
+                span2:'MissYan',
+                span3:'59',
+                span4:'46',
+                
+            },]
+            $scope.page=function(){
+                window.location.href='./deputyPage1.html'
+            }
+
+        })
+	</script>
+</head>
+<body>
+	<header>
+		<div class="header-title">
+			<!-- 登陆 -->
+			<a href="login.html" class="log-in">登陆</a>
+			<h1>V粉社区</h1>
+			<!-- 搜索 -->
+			<a href="search.html" class="seek">搜索</a>
+		</div>
+		<!-- 显示 -->
+		
+		<!-- 路由 -->
+		<ul class="nav clear-fix" id="ul--1">
+        	<li class="fl"><a href="#/recommend" class="nav-left active" id="a1">推荐</a></li>
+        	<li class="fr"><a href="#/new" class="nav-right" id="a2">版块</a></li>
+    	</ul>
+    	<div ng-view></div>
+	</header>
+    <footer>
+        <ul class="foot-ul">
+            <li class="li1"><a href="../index.html" class="a1"></a></li>
+            <li class="li2"><a href="#" class="a2"></a></li>
+            <li class="li3"><a href="../vivoss/store.html" class="a3"></a></li>
+            <li class="li4"><a href="../vivoss/server.html" class="a4"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

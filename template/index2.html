@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+
+	<div class="box wraper">
+		<div class="title clearFix">
+			<h2 class="fl">{{a}}</h2>
+			<a href="./vivo2/search.html" class="fl"></a>
+		</div>
+	</div>
+	<div class="box2 wraper">
+	    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <img class="swiper-slide"  ng-src="{{b}}" alt="">
+            <img ng-src="{{b1}}" class="swiper-slide" alt="">
+            <img ng-src="{{b2}}" class="swiper-slide" alt="">
+            <img ng-src="{{b3}}" class="swiper-slide" alt="">
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+	</div>
+	<div class="box3 wraper">
+		<div class="nav">
+			<ul class="container">
+				<li ng-repeat="v in data | limitTo:'4'">
+					<a href="javascript:;">
+						<img ng-src="{{v.image}}" alt="">
+						<span>{{v.phone}}</span>
+					</a>
+				</li>
+				<!-- <li>
+					<a href="javascript:;">
+						<img src="images/a4.png" alt="">
+						<span>配件</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/a5.png" alt="">
+						<span>促销</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/a6.png" alt="">
+						<span>活动</span>
+					</a>
+				</li> -->
+			</ul>
+			<ul class="container con2">
+				<li ng-repeat="v in data2 | limitTo:'4'">
+					<a href="javascript:;">
+						<img ng-src="{{v.image}}" alt="">
+						<span>{{v.phone}}</span>
+					</a>
+				</li>
+				<!-- <li>
+					<a href="javascript:;">
+						<img src="images/a8.png" alt="">
+						<span>V粉</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/a9.png" alt="">
+						<span>评测</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="images/a10.png" alt="">
+						<span>玩机</span>
+					</a>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+	<div class="box4 wraper">
+		<ul class="clearFix">
+			<li class="fl" ng-repeat="item in data3 | limitTo:'2'">
+				<div class="left fl">
+					<div class="type">{{item.type}}</div>
+					<div class="style">{{item.style}}</div>
+					<p>{{item.p | currency:'￥'}}</p>
+				</div>
+				<a href="javascript:;">
+					<img ng-src="{{item.image}}" alt="" class="fl">
+				</a>
+			</li>
+			<!-- <li class="fr">
+				<div class="left fl">
+					<div class="type">X9磨砂黑</div>
+					<div class="style">64G存储</div>
+					<p>￥2798</p>
+				</div>
+				<a href="javascript:;">
+					<img src="images/a12.png" alt="" class="fl">
+				</a>
+			</li> -->
+		</ul>
+	</div>
+	<div class="box5 wraper clearFix">
+		<div class="border fl"></div>
+		<h2 class="title fl">品牌动态</h2>
+		<div class="border-right fl"></div>
+		<a href="javascript:;"><div class="triangle fr"></div></a>
+	</div>
+
+	<!-- 这是轮播图 -->
+	<div class="box6 wraper" id="box-box">
+		<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
+				<img class="swiper-slide"  ng-src="{{f1}}" alt="">
+	            <img ng-src="{{f2}}" class="swiper-slide" alt="">
+	            <img ng-src="{{f3}}" class="swiper-slide" alt="">
+			</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+	</div>
+	<div class="box5 wraper clearFix">
+		<div class="border fl"></div>
+		<h2 class="title fl">活动精选</h2>
+		<div class="border-right fl"></div>
+		<a href="javascript:;"><div class="triangle fr"></div></a>
+	</div>
+	<div class="box7 wraper">
+		<div class="swiper-container">
+	    	<div class="swiper-wrapper">
+				<img class="swiper-slide"  ng-src="{{m1}}" alt="">
+	            <img ng-src="{{m1}}" class="swiper-slide" alt="">
+	            <img ng-src="{{m2}}" class="swiper-slide" alt="">
+			</div>
+		</div>
+
+	</div>
+	<div class="box5 wraper clearFix">
+		<div class="border fl"></div>
+		<h2 class="title fl">社区热帖</h2>
+		<div class="border-right fl"></div>
+		<a href="javascript:;"><div class="triangle fr"></div></a>
+	</div>
+	<div class="box8 wraper">
+		<div class="head clearFix">
+			<a href="javascript:;"><p class="img fl"></p></a>
+			<a href="javascript:;"><p class="name fl">{{c}}</p></a>
+		</div>
+		<div class="font clearFix">
+			<div class="border-left fl"><a href="javascript:;">{{d}}</a></div>
+			<div class="border-center fl">|</div>
+			<div class="border-right fl"><a href="javascript:;">{{e}}</a></div>
+		</div>
+		<p class="Introduction"><a href="javascript:;">{{f}}</a></p>
+		<div class="images">
+			<ul class="clearFix">
+				<li ng-repeat="item in data4 | limitTo:'3'">
+					<a href="javascript:;"><img ng-src="{{item.image}}" alt=""></a>
+				</li>
+				<!-- <li>
+					<a href="javascript:;"><img src="images/a19.png" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img src="images/a20.png" alt=""></a>
+				</li> -->
+			</ul>
+		</div>
+		<div class="all clearFix">
+			<div class="left fl">
+				<i class="fl"></i>
+				<span class="fl">{{g}}</span>
+			</div>
+			<div class="center fl">
+				<i class="fl"></i>
+				<span class="fl">{{h}}</span>
+			</div>
+			<a href="javascript:;" class="fr">
+				<div class="right">
+					{{i}}
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="box9 wraper">
+		<div class="head clearFix">
+			<a href="javascript:;"><p class="img fl"></p></a>
+			<a href="javascript:;"><p class="name fl">{{c1}}</p></a>
+		</div>
+		<div class="font clearFix">
+			<div class="border-left fl"><a href="javascript:;">{{d1}}</a></div>
+			<div class="border-center fl">|</div>
+			<div class="border-right fl"><a href="javascript:;">{{e1}}</a></div>
+		</div>
+		<p class="Introduction"><a href="javascript:;">{{f1}}</a></p>
+		<div class="images">
+			<ul class="clearFix">
+				<li ng-repeat="item in data5 | limitTo:'3'">
+					<a href="javascript:;"><img ng-src="{{item.image}}" alt=""></a>
+				</li>
+				<!-- <li>
+					<a href="javascript:;"><img src="images/a19.png" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img src="images/a20.png" alt=""></a>
+				</li> -->
+			</ul>
+		</div>
+		<div class="all clearFix">
+			<div class="left fl">
+				<i class="fl"></i>
+				<span class="fl">{{g1}}</span>
+			</div>
+			<div class="center fl">
+				<i class="fl"></i>
+				<span class="fl">{{h1}}</span>
+			</div>
+			<a href="javascript:;" class="fr">
+				<div class="right">
+					{{i}}
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="box9 wraper">
+		<div class="head clearFix">
+			<a href="javascript:;"><p class="img fl"></p></a>
+			<a href="javascript:;"><p class="name fl">{{c2}}</p></a>
+		</div>
+		<div class="font clearFix">
+			<div class="border-left fl"><a href="javascript:;">{{d2}}</a></div>
+			<div class="border-center fl">|</div>
+			<div class="border-right fl"><a href="javascript:;">{{e2}}</a></div>
+		</div>
+		<p class="Introduction"><a href="javascript:;">{{f2}}</a></p>
+		<div class="images">
+			<ul class="clearFix">
+				<li ng-repeat="item in data6 | limitTo:'3'">
+					<a href="javascript:;"><img ng-src="{{item.image}}" alt=""></a>
+				</li>
+				<!-- <li>
+					<a href="javascript:;"><img src="images/a19.png" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img src="images/a20.png" alt=""></a>
+				</li> -->
+			</ul>
+		</div>
+		<div class="all clearFix">
+			<div class="left fl">
+				<i class="fl"></i>
+				<span class="fl">{{g2}}</span>
+			</div>
+			<div class="center fl">
+				<i class="fl"></i>
+				<span class="fl">{{h2}}</span>
+			</div>
+			<a href="javascript:;" class="fr">
+				<div class="right">
+					{{i2}}
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="box10">
+		<a href="javascript:;">查看更多 ></a>
+	</div>
+	<div class="box5 wraper clearFix">
+		<div class="border fl"></div>
+		<h2 class="title fl">版块推荐</h2>
+		<div class="border-right fl"></div>
+		<a href="javascript:;"><div class="triangle fr"></div></a>
+	</div>
+	<div class="box11">
+		<ul class="clearFix">
+			<li ng-repeat="item in data7 | limitTo:'4'">
+				<a href="javascript:;"><img ng-src="{{item.image}}" alt=""></a>
+				<div class="p"><a href="javascript:;">{{item.p}}</a></div>
+			</li>
+			<!-- <li>
+				<a href="javascript:;"><img src="images/a23.png" alt=""></a>
+				<div class="p"><a href="javascript:;">玩机技巧</a></div>
+			</li>
+			<li>
+				<a href="javascript:;"><img src="images/a23.png" alt=""></a>
+				<div class="p"><a href="javascript:;">玩机技巧</a></div>
+			</li>
+			<li>
+				<a href="javascript:;"><img src="images/a23.png" alt=""></a>
+				<div class="p"><a href="javascript:;">玩机技巧</a></div>
+			</li> -->
+		</ul>
+	</div>
+	<div class="box5 wraper clearFix">
+		<div class="border fl"></div>
+		<h2 class="title fl">商城精选</h2>
+		<div class="border-right fl"></div>
+		<a href="javascript:;"><div class="triangle fr"></div></a>
+	</div>
+	<div class="box12">
+		<div class="index">
+			<ul class="index">
+				<li ng-repeat="item in data8 | limitTo:'3'">
+					<i></i>
+					<a href="javascript:;">{{item.a}}</a>
+				</li>
+				<!-- <li>
+					<i></i>
+					<a href="javascript:;">30天无忧退换货</a>
+				</li>
+				<li>
+					<i></i>
+					<a href="javascript:;">30天无忧退换货</a>
+				</li> -->
+			</ul>
+		</div>
+		<div class="cellphone">
+			<ul class="clearFix">
+				<li class="fl" ng-repeat="item in data9 | limitTo:'2'">
+					<a href="javascript:;"><img ng-src="{{item.image}}" alt=""></a>
+					<div class="all">
+						<div class="font"><a href="javascript:;">{{item.font}}</a></div>
+						<div class="style clearFix">
+							<div class="a fl"><a href="javascript:;">{{item.p}}</a></div>
+							<div class="b fl">|</div>
+							<div class="a fl"><a href="javascript:;">{{item.p1}}</a></div>
+						</div>
+						<div class="d">{{item.d | currency:'￥'}}</div>
+					</div>
+				</li>
+			 <!-- <li class="fl">
+			 					<a href="javascript:;"><img src="images/a12.png" alt=""></a>
+			 					<div class="all">
+			 						<div class="font"><a href="javascript:;">X9Plus磨砂黑</a></div>
+			 						<div class="style clearFix">
+			 							<div class="a fl"><a href="javascript:;">前置2000万</a></div>
+			 							<div class="b fl">|</div>
+			 							<div class="a fl"><a href="javascript:;">6GB+64GB</a></div>
+			 						</div>
+			 						<div class="d">￥3298</div>
+			 					</div>
+			 				</li> -->
+			 	<li class="fl" ng-repeat="item in data10 | limitTo:'2'">
+ 					<a href="javascript:;"><img ng-src="{{item.image}}" alt=""></a>
+ 					<div class="all">
+ 						<div class="font"><a href="javascript:;">{{item.font}}</a></div>
+ 						<div class="style clearFix">
+ 							<div class="a fl"><a href="javascript:;">{{item.p}}</a></div>
+ 						</div>
+ 						<div class="d">{{item.d | currency:'￥'}}</div>
+ 					</div>
+ 				</li>
+			</ul>
+
+		</div>
+	</div>
+
+	<div class="box14"></div>
+	<div class="end"></div>
+
+
+
+</body>
+</html>

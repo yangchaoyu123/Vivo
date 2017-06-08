@@ -1,0 +1,119 @@
+header{
+	width: 16.0rem;
+}
+.header-title {
+	width: 100%;
+	/* 89 / 40*/
+	/*display: flex;*/
+	height: 2.341rem; 
+	background: #fff;
+
+	/*border-bottom: 0.1rem solid #4bccae;*/
+	box-shadow:0 0 0.016rem black;
+	overflow: hidden;
+}
+.header-title a {
+	/*width: 1.319rem;*/
+	/*height: 1.5rem;*/
+	background-size: 100%;
+	/*text-indent: -999em;*/
+}
+.return{
+	display: inline-block;
+	width: 0.489rem;
+	height: 0.874rem;
+
+	background: url(../image/jiao.png) no-repeat;
+	margin-left: 0.667rem;
+	margin-top: 0.756rem;
+}
+.ipt{
+	width: 10.37rem;
+	height: 1.481rem;
+	display: inline-block;
+	margin-bottom: 0.593rem;
+	margin-left: 0.667rem;
+	background: #f6f6f6;
+	/*outline: none;*/
+	padding-left: 0.978rem;
+	border:none;
+}
+.seek{
+	font-size: 0.667rem;
+	color: #888;
+	font-family: '华文仿宋';
+	display: inline-block;
+	margin-left: 0.296rem;
+	/*line-height: 2.341rem;*/
+	/*margin-bottom: 0.77rem;*/
+}
+.sp{
+	display: block;
+	margin-top: 0.889rem;
+	margin-left: 0.889rem;
+	font-family: '华文仿宋';
+	font-size: 0.593rem;
+	color: #aaa;
+}
+.sec-ul{
+	margin-top: 0.652rem;
+	margin-left: 0.978rem;
+}
+.sec-ul li{
+	float: left;
+	border: 0.015rem solid black;
+	border-radius: 0.593rem;
+	text-align: center;
+	font-family: '华文仿宋';
+	margin-left: 0.267rem;
+	font-size: 0.504rem;
+	padding: 0.296rem 0.578rem 0.252rem 0.548rem;
+	line-height: 1.156rem;
+}
+.box{
+	margin-top: 3.793rem;
+	margin-left: 1.481rem;
+}
+.box .box-1,.box-2{
+	width: 3.659rem;
+	height: 0.015rem;
+	margin-top: 0.37rem;
+	border-top: 0.015rem solid #ccc;
+}
+.box .box-1{
+	margin-right: 0.296rem;
+}
+.box .box-2{
+	margin-left: 0.296rem;
+}
+.box .sp-1{
+	font-family: '华文仿宋';
+	font-size: 0.533rem;
+	color: #b9b9b9;
+}
+.fo-ul{
+	margin-left: 2.037rem;
+}
+.fo-ul li{
+	width: 1.867rem;
+	height: 2.667rem;
+	float: left;
+	margin-left: 0.844rem;
+	margin-top: 2.222rem;
+}
+.fo-ul .li1{
+	background: url(../image/k-1.png) no-repeat;
+	background-size: 100%;
+}
+.fo-ul .li2{
+	background: url(../image/k-2.png) no-repeat;
+	background-size: 100%;
+}
+.fo-ul .li3{
+	background: url(../image/k-3.png) no-repeat;
+	background-size: 100%;
+}
+.fo-ul .li4{
+	background: url(../image/k-4.png) no-repeat;
+	background-size: 100%;
+}

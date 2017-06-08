@@ -1,0 +1,411 @@
+body {
+  background: #fffbff; }
+
+html {
+  font-size: 20px; }
+
+.box {
+  background: #fff; }
+  .box .title {
+    height: 2.2518rem;
+    line-height: 2.25185rem; }
+    .box .title h2 {
+      font-size: 0.7703rem;
+      margin-left: 6.3703rem; }
+    .box .title a {
+      margin-left: 4.666rem;
+      margin-top: 0.637rem;
+      background: url(../images/a1.png) no-repeat;
+      background-size: 100% 100%;
+      width: 0.9777rem;
+      height: 1.022rem;
+      display: inline-block; }
+
+.box2 .swiper-container {
+  width: 16rem;
+  height: 10.948rem; }
+  .box2 .swiper-container img {
+    width: 100%;
+    height: 100%; }
+
+.box3 .nav .container {
+  display: flex;
+  background: #fff; }
+  .box3 .nav .container li {
+    flex: 1;
+    padding-top: 1.037rem; }
+    .box3 .nav .container li img {
+      display: block;
+      margin: 0 auto;
+      width: 1.555rem;
+      height: 1.466rem;
+      background-size: 100% 100%; }
+    .box3 .nav .container li span {
+      font-size: 0.5037rem;
+      display: block;
+      color: #313031;
+      width: 100%;
+      text-align: center;
+      padding-top: 0.296rem; }
+.box3 .nav .con2 {
+  padding-bottom: 1.037rem; }
+
+.box4 {
+  margin-top: 0.2518rem;
+  box-sizing: border-box; }
+  .box4 li {
+    width: 7.896rem;
+    background: #fff;
+    padding-bottom: 0.874rem; }
+    .box4 li .left {
+      padding-left: 0.7703rem; }
+      .box4 li .left .type {
+        font-size: 0.548rem;
+        color: #181818;
+        padding-top: 1.185rem; }
+      .box4 li .left .style {
+        font-size: 0.474rem;
+        color: #7b797b;
+        margin: 0.1185rem 0 0.948rem 0; }
+      .box4 li .left p {
+        font-size: 0.474rem;
+        color: #de714a; }
+    .box4 li img {
+      padding-top: 1.111rem;
+      width: 2.8148rem;
+      height: 3.837rem;
+      margin-left: 0.1777rem; }
+
+.box5 {
+  margin-top: 0.266rem;
+  padding-bottom: 1.437rem;
+  background: #fff; }
+  .box5 .border {
+    width: 0.5925rem;
+    height: 0.0296rem;
+    border-top: 2px solid #6b6d6b;
+    margin-left: 5.6148rem;
+    margin-top: 1.437rem;
+    margin-right: 0.3259rem; }
+  .box5 .title {
+    font-size: 0.711rem;
+    color: #313031;
+    margin-top: 1.0367rem;
+    width: 2.9629rem; }
+  .box5 .border-right {
+    width: 0.5925rem;
+    height: 0.0296rem;
+    border-top: 2px solid #6b6d6b;
+    margin-left: 5.6148rem;
+    margin-top: 1.437rem;
+    margin-left: 0.3259rem; }
+  .box5 .triangle {
+    background: url(../images/a14.png) no-repeat;
+    width: 0.2666rem;
+    height: 0.5037rem;
+    margin: 1.2296rem 0.711rem 0 0;
+    background-size: 100% 100%; }
+
+.box6 {
+  width: 16rem;
+  height: 7.733rem;
+  overflow: hidden;
+  position: relative; }
+  .box6 ul {
+    width: 48rem;
+    height: 7.733rem;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .box6 ul li {
+      width: 13.7333rem;
+      height: 7.733rem;
+      float: left; }
+      .box6 ul li img {
+        width: 13.7333rem;
+        height: 7.733rem; }
+
+.box7 {
+  padding-left: 0.192rem;
+  background: #fff;
+  padding-bottom: 1.2rem; }
+  .box7 .swiper-container {
+    width: 15.57rem;
+    height: 6.9037rem; }
+    .box7 .swiper-container img {
+      width: 100%;
+      height: 100%; }
+
+.box8 {
+  background: #fff;
+  border-bottom: 0.0148rem solid #dedfde;
+  padding-bottom: 0.7259rem; }
+  .box8 .head {
+    margin-left: 0.711rem; }
+    .box8 .head .img {
+      background: url(../images/a17.png) no-repeat;
+      width: 0.844rem;
+      height: 0.844rem;
+      background-size: 100% 100%; }
+    .box8 .head .name {
+      color: #bdbebd;
+      font-size: 0.4296rem;
+      margin-top: 0.088rem;
+      margin-left: 0.2074rem; }
+  .box8 .font {
+    margin-left: 0.696rem;
+    margin-top: 0.2222rem; }
+    .box8 .font .border-left {
+      font-size: 0.696rem; }
+      .box8 .font .border-left a {
+        color: #313031; }
+    .box8 .font .border-center {
+      font-size: 0.696rem;
+      margin: 0 0.2518rem; }
+      .box8 .font .border-center a {
+        color: #313031; }
+    .box8 .font .border-right {
+      font-size: 0.696rem; }
+      .box8 .font .border-right a {
+        color: #313031; }
+  .box8 .Introduction {
+    margin-left: 0.696rem;
+    margin-top: 0.474rem;
+    font-size: 0.533rem;
+    width: 13.688renm; }
+    .box8 .Introduction a {
+      color: #9c9a9c; }
+  .box8 .images {
+    box-sizing: border-box;
+    margin-left: 0.696rem;
+    margin-top: 0.8888rem; }
+    .box8 .images li {
+      float: left;
+      margin-right: 0.1629rem; }
+      .box8 .images li img {
+        width: 4.755rem;
+        height: 4.7407rem; }
+  .box8 .all .left {
+    margin-top: 0.977rem;
+    margin-left: 0.696rem; }
+    .box8 .all .left i {
+      background: url(../images/a21.png) no-repeat;
+      width: 0.69629rem;
+      height: 0.459rem;
+      display: block; }
+    .box8 .all .left span {
+      font-size: 0.3703rem;
+      color: #bdbebd;
+      display: block; }
+  .box8 .all .center {
+    margin-top: 0.977rem;
+    margin-left: 0.5925rem; }
+    .box8 .all .center i {
+      background: url(../images/a22.png) no-repeat;
+      width: 0.5037rem;
+      height: 0.4592rem;
+      display: block; }
+    .box8 .all .center span {
+      font-size: 0.3703rem;
+      color: #bdbebd;
+      display: block; }
+  .box8 .all .right {
+    width: 2.7851rem;
+    height: 0.933rem;
+    border: 0.0148rem solid #63cbff;
+    border-radius: 10px;
+    color: #6bcbff;
+    font-size: 0.459rem;
+    text-align: center;
+    line-height: 0.933rem;
+    margin: 0.7407rem 0.7111rem 0 0; }
+
+.box9 {
+  background: #fff;
+  border-bottom: 0.0148rem solid #dedfde;
+  padding-bottom: 0.7259rem;
+  padding-top: 1.155rem; }
+  .box9 .head {
+    margin-left: 0.711rem; }
+    .box9 .head .img {
+      background: url(../images/a17.png) no-repeat;
+      width: 0.844rem;
+      height: 0.844rem;
+      background-size: 100% 100%; }
+    .box9 .head .name {
+      color: #bdbebd;
+      font-size: 0.4296rem;
+      margin-top: 0.088rem;
+      margin-left: 0.2074rem; }
+  .box9 .font {
+    margin-left: 0.696rem;
+    margin-top: 0.2222rem; }
+    .box9 .font .border-left {
+      font-size: 0.696rem; }
+      .box9 .font .border-left a {
+        color: #313031; }
+    .box9 .font .border-center {
+      font-size: 0.696rem;
+      margin: 0 0.2518rem; }
+      .box9 .font .border-center a {
+        color: #313031; }
+    .box9 .font .border-right {
+      font-size: 0.696rem; }
+      .box9 .font .border-right a {
+        color: #313031; }
+  .box9 .Introduction {
+    margin-left: 0.696rem;
+    margin-top: 0.474rem;
+    font-size: 0.533rem;
+    width: 13.688renm; }
+    .box9 .Introduction a {
+      color: #9c9a9c; }
+  .box9 .images {
+    box-sizing: border-box;
+    margin-left: 0.696rem;
+    margin-top: 0.8888rem; }
+    .box9 .images li {
+      float: left;
+      margin-right: 0.1629rem; }
+      .box9 .images li img {
+        width: 4.755rem;
+        height: 4.7407rem; }
+  .box9 .all .left {
+    margin-top: 0.977rem;
+    margin-left: 0.696rem; }
+    .box9 .all .left i {
+      background: url(../images/a21.png) no-repeat;
+      width: 0.69629rem;
+      height: 0.459rem;
+      display: block; }
+    .box9 .all .left span {
+      font-size: 0.3703rem;
+      color: #bdbebd;
+      display: block; }
+  .box9 .all .center {
+    margin-top: 0.977rem;
+    margin-left: 0.5925rem; }
+    .box9 .all .center i {
+      background: url(../images/a22.png) no-repeat;
+      width: 0.5037rem;
+      height: 0.4592rem;
+      display: block; }
+    .box9 .all .center span {
+      font-size: 0.3703rem;
+      color: #bdbebd;
+      display: block; }
+  .box9 .all .right {
+    width: 2.7851rem;
+    height: 0.933rem;
+    border: 0.0148rem solid #63cbff;
+    border-radius: 10px;
+    color: #6bcbff;
+    font-size: 0.459rem;
+    text-align: center;
+    line-height: 0.933rem;
+    margin: 0.7407rem 0.7111rem 0 0; }
+
+.box10 {
+  height: 2.1925rem;
+  line-height: 2.1925rem;
+  background: #fff;
+  text-align: center; }
+  .box10 a {
+    color: #313031;
+    font-size: 0.533rem; }
+
+.box11 {
+  box-sizing: border-box;
+  padding-bottom: 1.259rem;
+  background: #fff; }
+  .box11 ul {
+    margin-left: 0.6962rem; }
+    .box11 ul li {
+      float: left;
+      margin-right: 0.414rem; }
+      .box11 ul li img {
+        width: 3.333rem;
+        height: 3.333rem; }
+      .box11 ul li .p {
+        font-size: 0.488rem;
+        width: 3.333rem;
+        text-align: center;
+        margin-top: 0.3703rem; }
+        .box11 ul li .p a {
+          color: #313031; }
+
+.box12 {
+  background: #fff; }
+  .box12 .index {
+    margin-left: 0.1333rem; }
+    .box12 .index li {
+      float: left;
+      margin-left: 1.08148rem; }
+      .box12 .index li i {
+        background: url(../images/a24.png) no-repeat;
+        display: block;
+        width: 0.2518rem;
+        height: 0.2518rem;
+        float: left;
+        margin-top: 0.2222rem; }
+      .box12 .index li a {
+        color: #313031;
+        font-size: 0.4444rem;
+        display: block;
+        float: left;
+        margin-left: 0.1185rem; }
+  .box12 .cellphone {
+    padding-bottom: 0.7407rem;
+    margin-left: 0.6666rem; }
+    .box12 .cellphone li {
+      padding-top: 1.3333rem;
+      width: 7.33333rem; }
+      .box12 .cellphone li img {
+        margin-left: 2.074rem;
+        width: 3.7629rem;
+        height: 4.3555rem; }
+      .box12 .cellphone li .all {
+        width: 7.33333rem;
+        text-algin: center; }
+        .box12 .cellphone li .all .font {
+          font-size: 0.6222rem; }
+          .box12 .cellphone li .all .font a {
+            color: #313031; }
+        .box12 .cellphone li .all .style .a {
+          font-size: 0.4rem; }
+          .box12 .cellphone li .all .style .a a {
+            color: #9c9a9c; }
+        .box12 .cellphone li .all .style .b {
+          color: #9c9a9c;
+          font-size: 0.3740rem;
+          margin: 0 0.05925rem; }
+        .box12 .cellphone li .all .d {
+          color: #ff7563;
+          font-size: 0.5037rem; }
+
+.box14 {
+  border: 1px solid #dedfde;
+  margin-top: 0.237rem; }
+
+.box13 {
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  padding: 0.31111rem 0 0 1.48rem;
+  background: #fff; }
+  .box13 ul {
+    display: flex; }
+    .box13 ul li {
+      flex: 1; }
+      .box13 ul li img {
+        width: 1.022rem;
+        height: 0.933rem;
+        background-size: 100% 100%; }
+      .box13 ul li p {
+        font-size: 0.459rem;
+        margin-top: 0.1481rem; }
+        .box13 ul li p a {
+          color: #313031; }
+
+.end {
+  height: 2rem; }

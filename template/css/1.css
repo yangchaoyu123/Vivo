@@ -1,0 +1,21 @@
+#box-box{
+            width: 16rem;
+            height: 10rem;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        #box-box ul{
+            width: 96rem;
+            height: 10rem;
+            position: absolute;
+            top: 0;
+            transform: translate3d(-16rem,0,0);
+        }
+        #box-box ul li {
+            width: 16rem;
+            height: 10rem;
+            float: left;
+            text-align: center;
+            line-height: 10rem;
+        }

@@ -1,0 +1,240 @@
+#serverBox{
+	background:#f7f7f7;
+	width:16.0rem;
+	.server-top{
+		padding:0.741rem 0.681rem;
+		background:#00aeff;
+		.server-ul{
+			width:14.593rem;
+			height:4.548rem;
+			.sz,.ljdl,.ly{
+				display:block;
+				height:4.548rem;
+				font-size:0.637rem;
+				color:#fff;
+			}
+			.sz,.ly{
+				margin-top:0.237rem;
+			}
+			.ljdl{
+				margin-left:5.037rem;
+				display:block;
+				height:1.585rem;
+				background:url(../images/ljdl.png) no-repeat top center;
+				text-align:center;
+				padding-top:2.963rem;
+				background-size:100%;
+				
+			}
+			.ly{
+				background:url(../images/ly.png) no-repeat;
+				width:0.963rem;
+				height:0.993rem;
+				background-size:100%;
+			}
+		}
+		.server-b{
+			padding-left:0.963rem;
+			.dd,.yhj,.gwc,.wdsc{
+				display:block;
+				width:1.481rem;
+				height:1.896rem;
+				text-align:center;
+				font-size:0.474rem;
+				color:#fff;
+				margin-right:2.222rem;
+				margin-bottom:0.8rem;
+				.bjt{
+					margin:auto;
+					margin-bottom:0.385rem;
+					display:block;
+					width:1.481rem;
+					height:1.422rem;
+				}
+			}
+			.dd{
+				.bjt{
+					background:url(../images/dd.png) no-repeat center;
+					background-size:100%;
+				}
+			}
+			.yhj{
+				.bjt{
+					background:url(../images/yhj.png) no-repeat center;
+					background-size:100%;
+				}
+				
+			}
+			.gwc{
+				.bjt{
+					background:url(../images/gwc.png) no-repeat center;
+					background-size:100%;
+				}
+			}
+			.wdsc{
+				margin-right:0;
+				width:1.926rem;
+				.bjt{
+					background:url(../images/wdsc.png) no-repeat center;
+					background-size:100%;
+				}
+			}
+		}
+	}
+	.server-body{
+		width:16.0rem;
+		.server-dh{
+			background:#fff;
+			padding-bottom:1.185rem;
+			.server-dh-li{
+				margin:1.481rem 0.711rem 0.296rem 1.926rem;
+				.cjwt{
+					font-size:0.563rem;
+					color:#4a494a;
+					display:block;
+					.bjt{
+						width:1.422rem;
+						height:1.481rem;
+						display:block;
+						background-size:100%;
+						margin:0 auto;
+						margin-bottom:0.696rem;
+					}
+					.bjt1{
+						background:url(../images/bjt1.png) no-repeat top center;
+						background-size:100%;
+						
+
+					}
+					.bjt2{
+						background:url(../images/bjt2.png) no-repeat top center;
+						background-size:100%;
+					}
+					.bjt3{
+						background:url(../images/bjt3.png) no-repeat top center;
+						background-size:100%;
+					}
+					.bjt4{
+						background:url(../images/bjt4.png) no-repeat top center;
+						background-size:100%;
+					}	
+					.bjt5{
+						background:url(../images/bjt5.png) no-repeat top center;
+						background-size:100%;
+					}	
+					.bjt6{
+						background:url(../images/bjt6.png) no-repeat top center;
+						background-size:100%;
+					}	
+					.bjt7{
+						background:url(../images/bjt7.png) no-repeat top center;
+						background-size:100%;
+					}	
+					.bjt8{
+						background:url(../images/bjt8.png) no-repeat top center;
+						background-size:100%;
+					}			
+				}
+			}
+		}
+		.wrsq{
+			width:16.0rem;
+			background:#fff;
+			margin-top:0.296rem;
+			.wrsq-h3s{
+				padding-top:0.593rem;
+				.wrsq-h3{
+					width:14.593rem;
+					display:block;
+					margin-left:0.637rem;
+					font-size:0.681rem;
+					color:#393c39;
+					.bjt{
+						width:0.281rem;
+						height:0.489rem;
+						float:right;
+						background:url(../images/wdsq.png) no-repeat right center;
+						background-size:100%;
+					}
+				}
+			}
+			.wrsq-li{
+				margin:1.481rem 0.711rem 0.296rem 2.415rem;
+				.tz{
+					font-size:0.563rem;
+					color:#4a494a;
+					display:block; 
+					.bjt{
+						width:1.422rem;
+						height:1.481rem;
+						display:block;
+						margin:0 auto;
+						margin-bottom:0.711rem;
+					}
+					.bjt9{
+						background:url(../images/bjt9.png) no-repeat top center;
+						background-size:100%;
+					}
+					.bjt10{
+						background:url(../images/bjt10.png) no-repeat top center;
+						background-size:100%;
+					}
+					.bjt11{
+						background:url(../images/bjt11.png) no-repeat top center;
+						background-size:100%;
+					}
+					.bjt12{
+						background:url(../images/bjt12.png) no-repeat top center;
+						background-size:100%;
+					}
+
+				}
+			}
+
+		}
+	}
+	#server-buttom{
+		width:16.0rem;
+			height:2.222rem;
+			background:#fff;
+			padding-top:0.444rem;
+	}
+	#dibu{
+ 			width:16.0rem;
+ 			position:fixed;
+ 			left:0; bottom:0;
+ 			background:#fff;
+	 		.nave{
+	 			width:16.0rem;
+	 			border-top:0.015rem solid #dedfde;
+	 			background:#fff;
+	 			.naves{
+	 				width:4.0rem;
+	 				height:2.207rem;
+	 				.select{
+	 					padding:1.103rem 2.0rem ;
+	 					
+	 					display:block;
+	 				}
+	 				.jx{
+	 					background:url(../images/jx.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 				.sq{
+	 					background:url(../images/sq.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 				.sc{
+	 					background:url(../images/sc.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 				.fw{
+	 					background:url(../images/fw.png)no-repeat;
+	 					background-size:100%;
+	 				}
+	 			}
+	 			
+	 		}
+
+ 		}
+}
